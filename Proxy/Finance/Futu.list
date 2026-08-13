@@ -1,0 +1,43 @@
+# 名称：富途与 Moomoo
+# 用途：匹配富途、富途牛牛及 Moomoo 证券交易服务。
+# 建议策略：股票专用策略组。
+
+# 分组：富途主站、应用与基础设施
+DOMAIN-SUFFIX,futu.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futuhk2.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futunn.hk
+DOMAIN-SUFFIX,futunn.app
+DOMAIN-SUFFIX,futunn.net
+DOMAIN-SUFFIX,futunnapi.com
+DOMAIN-SUFFIX,futunnlog.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futu.link
+DOMAIN-SUFFIX,futuinc.com
+DOMAIN-SUFFIX,futuniuniu.com
+DOMAIN-SUFFIX,futufin.com
+DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futuesop.com
+DOMAIN-SUFFIX,futuchain.com
+DOMAIN-SUFFIX,futustatic.com
+
+# 分组：富途编号域名
+DOMAIN-SUFFIX,futu0.com
+DOMAIN-SUFFIX,futu1.com
+DOMAIN-SUFFIX,futu2.com
+DOMAIN-SUFFIX,futu3.com
+DOMAIN-SUFFIX,futu4.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futu6.com
+DOMAIN-SUFFIX,futu7.com
+DOMAIN-SUFFIX,futu8.com
+DOMAIN-SUFFIX,futu9.com
+
+# 分组：富途 Deep Link
+DOMAIN-SUFFIX,futunn.app.link
+
+# 分组：Moomoo
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,moomooequity.com
+DOMAIN-SUFFIX,moomootrustee.com

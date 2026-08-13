@@ -1,0 +1,7 @@
+# 名称：中国大陆域名与网络
+# 用途：匹配中国大陆顶级域名与 IP 地址。
+# 建议策略：DIRECT
+
+# 分组：中国大陆域名与 IP
+DOMAIN-SUFFIX,cn
+GEOIP,CN,no-resolve

@@ -1,0 +1,16 @@
+# 名称：老虎证券
+# 用途：匹配 Tiger Brokers、Tiger Trade 及老虎证券开放平台。
+# 建议策略：股票专用策略组。
+
+# 分组：Tiger Brokers
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.hk
+DOMAIN-SUFFIX,tigerbrokersapp.com
+DOMAIN-SUFFIX,tigerbrokersapi.com
+DOMAIN-SUFFIX,tigercdn.com
+
+# 分组：Tiger Trade 与开放平台
+DOMAIN-SUFFIX,tigertrade.com
+DOMAIN-SUFFIX,tigertrade.hk
+DOMAIN-SUFFIX,tigertradeapp.com
+DOMAIN-SUFFIX,tigeropenapi.com

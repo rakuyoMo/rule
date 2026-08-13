@@ -1,0 +1,8 @@
+# 名称：电子邮件与邮件营销
+# 用途：匹配安全邮箱、邮件营销及智能邮件服务。
+# 建议策略：通用代理策略组。
+
+# 分组：电子邮件与邮件营销
+DOMAIN-SUFFIX,mailchimp.com
+DOMAIN-SUFFIX,smartmailcloud.com
+DOMAIN-SUFFIX,tutanota.com

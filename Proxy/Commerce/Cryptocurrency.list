@@ -1,0 +1,41 @@
+# 名称：加密货币与区块链
+# 用途：匹配加密货币交易所、行情、钱包及区块链浏览器。
+# 建议策略：金融服务专用策略组，并保持出口地区稳定。
+
+# 分组：交易所、行情与区块链服务
+DOMAIN-SUFFIX,aex.com
+DOMAIN-SUFFIX,bibox.com
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,bitcointalk.org
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,bitmex.com
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bittrex.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coincheck.com
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,coinone.co.kr
+DOMAIN-SUFFIX,etherscan.io
+DOMAIN-SUFFIX,ftx.com
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,korbit.co.kr
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,liquid.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,sushi.com
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN-SUFFIX,zb.com
+
+# 分组：行情工具
+DOMAIN-SUFFIX,aicoin.com
+DOMAIN-SUFFIX,aimoon.com

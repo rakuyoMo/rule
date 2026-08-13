@@ -1,0 +1,9 @@
+# 名称：Giffgaff
+# 用途：匹配 Giffgaff 运营商、回收与设计资源服务。
+# 建议策略：英国专用策略组。
+
+# 分组：Giffgaff 官方服务
+DOMAIN-SUFFIX,giff.ly
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,giffgaff.design
+DOMAIN-SUFFIX,giffgaffrecycle.com

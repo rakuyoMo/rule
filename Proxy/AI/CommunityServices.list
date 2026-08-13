@@ -1,0 +1,7 @@
+# 名称：AI 公益服务
+# 用途：匹配通过 AI 专用策略访问的公益服务入口。
+# 建议策略：自定义 AI 专用策略组。
+
+# 分组：公益服务代理入口
+DOMAIN-SUFFIX,anyrouter.top
+DOMAIN-SUFFIX,daiju.live

@@ -1,0 +1,12 @@
+# 名称：巴哈姆特动画疯
+# 用途：匹配巴哈姆特、动画疯及相关内容分发服务。
+# 建议策略：Bahamut 专用策略组，通常选择台湾地区节点。
+
+# 分组：客户端标识
+USER-AGENT,Anime*
+
+# 分组：巴哈姆特与内容分发
+DOMAIN-SUFFIX,bahamut.akamaized.net
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,hinet.net

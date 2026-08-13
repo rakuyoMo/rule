@@ -1,0 +1,20 @@
+# 名称：搜索引擎与门户
+# 用途：匹配 DuckDuckGo、Brave、Yahoo、Yandex 等搜索和门户服务。
+# 建议策略：通用代理策略组。
+
+# 分组：搜索引擎与门户
+DOMAIN-SUFFIX,ask.com
+DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,daum.net
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,search.com
+DOMAIN-SUFFIX,startpage.com
+
+# 分组：Yahoo
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN,search.yahoo.co.jp
+
+# 分组：Yandex
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yadi.sk
+DOMAIN,disk.yandex.com

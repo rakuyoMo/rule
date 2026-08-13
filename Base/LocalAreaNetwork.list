@@ -1,0 +1,19 @@
+# 名称：本地网络
+# 用途：匹配本地域名、回环地址、私有地址及链路本地地址。
+# 建议策略：DIRECT
+
+# 分组：本地域名
+DOMAIN-SUFFIX,local
+
+# 分组：IPv4 私有与本地地址
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+
+# 分组：IPv6 私有与本地地址
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR6,fc00::/7,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
+IP-CIDR6,fd00::/8,no-resolve

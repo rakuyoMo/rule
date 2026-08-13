@@ -1,0 +1,6 @@
+# 名称：Interactive Brokers 盈透证券
+# 用途：匹配盈透证券的非中国大陆服务域名。
+# 建议策略：股票专用策略组。
+
+# 分组：日本站
+DOMAIN-SUFFIX,interactivebrokers.co.jp

@@ -1,0 +1,14 @@
+# 名称：GitHub
+# 用途：匹配 GitHub 网站、代码资源与内容分发服务。
+# 建议策略：开发服务专用代理策略组。
+
+# 分组：GitHub 官方服务与 CDN
+DOMAIN,github.global.ssl.fastly.net
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# 分组：GitHub 关键字补充匹配
+DOMAIN-KEYWORD,github

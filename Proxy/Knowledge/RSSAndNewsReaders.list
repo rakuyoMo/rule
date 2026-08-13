@@ -1,0 +1,12 @@
+# 名称：RSS 与新闻阅读
+# 用途：匹配 RSS 服务、新闻聚合器及订阅阅读工具。
+# 建议策略：通用代理策略组。
+
+# 分组：RSS、订阅与新闻聚合
+DOMAIN-SUFFIX,bloglovin.com
+DOMAIN-SUFFIX,feeder.co
+DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,flipboard.com
+DOMAIN-SUFFIX,inoreader.com
+DOMAIN-SUFFIX,reabble.com
+DOMAIN-SUFFIX,rsshub.app

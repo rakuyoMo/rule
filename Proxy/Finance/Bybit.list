@@ -1,0 +1,27 @@
+# 名称：Bybit
+# 用途：匹配 Bybit 交易所、API、应用与备用服务域名。
+# 建议策略：Bybit 专用策略组。
+
+# 分组：Bybit 主站、API 与应用域名
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bytick.com
+
+# 分组：Bybit 精确支持与托管域名
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
+
+# 分组：Bybit 备用域名
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de

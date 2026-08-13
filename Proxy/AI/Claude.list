@@ -1,0 +1,23 @@
+# 名称：Claude 与 Anthropic
+# 用途：匹配 Claude 应用、Anthropic API、静态内容及官方网络。
+# 建议策略：自定义 AI 专用策略组。
+
+# 分组：Anthropic 与 Claude 主域名
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,trust.anthropic.com
+
+# 分组：API、控制台、下载与内容桥接
+DOMAIN,api.anthropic.com
+DOMAIN,bridge.claudeusercontent.com
+DOMAIN,console.anthropic.com
+DOMAIN,downloads.claude.ai
+DOMAIN,platform.claude.com
+
+# 分组：Anthropic 网络
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve

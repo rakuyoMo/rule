@@ -1,0 +1,19 @@
+# 名称：音频与播客
+# 用途：匹配音乐发布、在线音频及播客平台。
+# 建议策略：媒体服务专用代理策略组。
+
+# 分组：音乐、音频与播客平台
+DOMAIN-SUFFIX,anchor.fm
+DOMAIN-SUFFIX,bandcamp.com
+DOMAIN-SUFFIX,blubrry.com
+DOMAIN-SUFFIX,castbox.fm
+DOMAIN-SUFFIX,clyp.it
+DOMAIN-SUFFIX,genius.com
+DOMAIN-SUFFIX,listennotes.com
+DOMAIN-SUFFIX,mixlr.com
+DOMAIN-SUFFIX,moon.fm
+DOMAIN-SUFFIX,omny.fm
+DOMAIN-SUFFIX,owltail.com
+DOMAIN-SUFFIX,player.fm
+DOMAIN-SUFFIX,podbean.com
+DOMAIN-SUFFIX,radioline.co

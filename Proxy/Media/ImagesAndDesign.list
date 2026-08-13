@@ -1,0 +1,25 @@
+# 名称：图片与设计
+# 用途：匹配摄影图库、图片托管、数字绘画及设计社区。
+# 建议策略：通用代理策略组。
+
+# 分组：图片、摄影与设计平台
+DOMAIN-SUFFIX,artstation.com
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,depositphotos.com
+DOMAIN-SUFFIX,deviantart.com
+DOMAIN-SUFFIX,deviantart.net
+DOMAIN-SUFFIX,flickr.com
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,istockphoto.com
+DOMAIN-SUFFIX,medibang.com
+DOMAIN-SUFFIX,shutterstock.com
+DOMAIN-SUFFIX,sketchappsources.com
+DOMAIN-SUFFIX,tineye.com
+
+# 分组：Pixiv
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixiv.org
+
+# 分组：壁纸资源（例如 WaifuX）
+DOMAIN-SUFFIX,wallhaven.cc

@@ -1,0 +1,26 @@
+# 名称：商业财经与政策媒体
+# 用途：匹配财经市场、商业新闻、国际关系及政策媒体。
+# 建议策略：新闻服务专用代理策略组。
+
+# 分组：财经与商业媒体
+DOMAIN-SUFFIX,axios.com
+DOMAIN-SUFFIX,dowjones.com
+DOMAIN-SUFFIX,foreignaffairs.com
+DOMAIN-SUFFIX,foreignpolicy.com
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,ftchinese.com
+DOMAIN-SUFFIX,ftimg.net
+DOMAIN-SUFFIX,qz.com
+DOMAIN-SUFFIX,theaustralian.com.au
+DOMAIN-SUFFIX,tradingview.com
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
+
+# 分组：Bloomberg
+DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,bloomberg.de
+DOMAIN-SUFFIX,bloombergview.com
+
+# 分组：The Economist
+DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,static-economist.com

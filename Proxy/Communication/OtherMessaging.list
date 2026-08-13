@@ -1,0 +1,28 @@
+# 名称：其他通信与社交服务
+# 用途：聚合规则数量较少的即时通信、网络通话与社交平台。
+# 建议策略：通信与社交服务专用代理策略组。
+
+# 分组：即时通信与网络通话
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,matrix.org
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,textnow.me
+DOMAIN-SUFFIX,viber.com
+DOMAIN-SUFFIX,voxer.com
+DOMAIN-SUFFIX,wire.com
+DOMAIN-SUFFIX,zello.com
+
+# 分组：移动通信运营商
+DOMAIN-SUFFIX,vzw.com
+
+# 分组：Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com
+DOMAIN-SUFFIX,joinclubhouse.com
+DOMAIN,clubhouse.pubnubapi.com
+
+# 分组：Pinterest
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-KEYWORD,.pinterest.
+
+# 分组：Odnoklassniki
+DOMAIN-SUFFIX,ok.ru

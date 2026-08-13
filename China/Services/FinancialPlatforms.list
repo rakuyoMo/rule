@@ -1,0 +1,15 @@
+# 名称：中国大陆金融平台域名
+# 用途：聚合富途、长桥与盈透证券的中国大陆域名。
+# 建议策略：股票专用策略组，不建议因位于 China 目录就统一直连。
+
+# 分组：富途
+DOMAIN-SUFFIX,futu.cn
+DOMAIN-SUFFIX,futubull.cn
+
+# 分组：长桥
+DOMAIN-SUFFIX,longbridge.cn
+DOMAIN-SUFFIX,longportapp.cn
+
+# 分组：Interactive Brokers 盈透证券
+DOMAIN-SUFFIX,ibkr.com.cn
+DOMAIN-SUFFIX,interactivebrokers.com.cn

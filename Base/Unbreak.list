@@ -1,0 +1,29 @@
+# 名称：基础直连白名单
+# 用途：放行归因统计、安全浏览和播放器校验等基础服务，避免关键功能被后续规则误伤。
+# 建议策略：DIRECT，并放在其他远程规则集之前。
+
+# 分组：应用归因与统计
+DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
+DOMAIN,bdtj.tagtic.cn
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+
+# 分组：Google 安全浏览
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN,safebrowsing.googleapis-cn.com
+DOMAIN,safebrowsing.clients.google.com
+DOMAIN,safebrowsing-cache.google.com
+
+# 分组：腾讯视频校验
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
+
+# 分组：Strava 统计
+DOMAIN,analytics.strava.com
+
+# 分组：友盟消息推送
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com

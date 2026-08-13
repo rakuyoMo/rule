@@ -1,0 +1,12 @@
+# 名称：中国大陆视频服务
+# 用途：匹配规则数量较少的中国大陆视频平台服务。
+# 建议策略：DIRECT；如需跨区内容，可为本文件单独指定地区策略。
+
+# 分组：爱奇艺视频缓存
+DOMAIN,cache.video.iqiyi.com
+IP-CIDR,116.211.202.206/32,no-resolve
+IP-CIDR,116.211.202.216/32,no-resolve
+
+# 分组：芒果 TV 应用接口
+DOMAIN-SUFFIX,api.mgtv.com
+DOMAIN,mobileso.bz.mgtv.com

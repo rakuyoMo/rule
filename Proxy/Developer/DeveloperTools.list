@@ -1,0 +1,23 @@
+# 名称：开发工具与平台
+# 用途：聚合规则数量较少的开发工具、协作平台与扩展服务。
+# 建议策略：开发服务专用代理策略组。
+
+# 分组：代码与文档工具
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,githack.com
+DOMAIN-SUFFIX,graphql.org
+DOMAIN-SUFFIX,hackmd.io
+
+# 分组：JetBrains 下载
+DOMAIN,download.jetbrains.com
+
+# 分组：Mozilla 扩展
+DOMAIN,addons.mozilla.org
+
+# 分组：Docker 容器平台
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+
+# 分组：脚本与网络工具
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,nssurge.com

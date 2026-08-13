@@ -1,0 +1,48 @@
+# 名称：国际新闻
+# 用途：匹配国际综合新闻、科技新闻与时事媒体。
+# 建议策略：新闻服务专用代理策略组。
+
+# 分组：国际综合与科技媒体
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,c-span.org
+DOMAIN-SUFFIX,deadline.com
+DOMAIN-SUFFIX,huffpost.com
+DOMAIN-SUFFIX,independent.co.uk
+DOMAIN-SUFFIX,nbcnews.com
+DOMAIN-SUFFIX,neowin.net
+DOMAIN-SUFFIX,newstatesman.com
+DOMAIN-SUFFIX,newsweek.com
+DOMAIN-SUFFIX,newyorker.com
+DOMAIN-SUFFIX,smh.com.au
+DOMAIN-SUFFIX,spiegel.de
+DOMAIN-SUFFIX,techspot.com
+DOMAIN-SUFFIX,theage.com.au
+DOMAIN-SUFFIX,theatlantic.com
+DOMAIN-SUFFIX,theconversation.com
+DOMAIN-SUFFIX,thediplomat.com
+DOMAIN-SUFFIX,theguardian.com
+DOMAIN-SUFFIX,time.com
+DOMAIN-SUFFIX,venturebeat.com
+DOMAIN-SUFFIX,washingtonpost.com
+DOMAIN-SUFFIX,welt.de
+DOMAIN-SUFFIX,wn.com
+
+# 分组：纽约时报 CDN
+DOMAIN,nytimes.map.fastly.net
+
+# 分组：Reuters
+DOMAIN-SUFFIX,reuters.com
+DOMAIN-SUFFIX,reutersmedia.net
+
+# 分组：纽约时报
+DOMAIN-SUFFIX,newyorktimes.com
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nytco.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,nytimg.com
+DOMAIN-SUFFIX,nytlog.com
+DOMAIN-SUFFIX,nytstyle.com
+DOMAIN-SUFFIX,tmagazine.com
+
+# 分组：科技媒体
+DOMAIN-SUFFIX,engadget.com

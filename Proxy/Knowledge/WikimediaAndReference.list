@@ -1,0 +1,21 @@
+# 名称：Wikimedia 与维基参考
+# 用途：匹配 Wikipedia、Wikimedia 旗下项目及维基阅读工具。
+# 建议策略：通用代理策略组。
+
+# 分组：维基百科阅读工具
+DOMAIN-SUFFIX,wikiwand.com
+
+# 分组：Wikimedia 与维基项目
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikimediafoundation.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org

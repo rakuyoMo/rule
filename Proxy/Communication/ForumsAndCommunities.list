@@ -1,0 +1,22 @@
+# 名称：论坛、问答与社区
+# 用途：匹配论坛、问答、评论系统及兴趣社区。
+# 建议策略：通用代理策略组。
+
+# 分组：论坛、问答与社区
+DOMAIN-SUFFIX,9cache.com
+DOMAIN-SUFFIX,9gag.com
+DOMAIN-SUFFIX,change.org
+DOMAIN-SUFFIX,disqus.com
+DOMAIN-SUFFIX,idcflare.com
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,myspace.com
+DOMAIN-SUFFIX,myspacecdn.com
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,peing.net
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,quoracdn.net
+DOMAIN-SUFFIX,sorai.me
+DOMAIN-SUFFIX,steemit.com
+DOMAIN-SUFFIX,tapatalk.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,zophar.net

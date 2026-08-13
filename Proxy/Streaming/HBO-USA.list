@@ -1,0 +1,27 @@
+# 名称：HBO 美国区
+# 用途：匹配 HBO、HBO Max 及 WarnerMedia 相关流媒体资源。
+# 建议策略：Hbomax 专用代理策略组，通常选择美国节点。
+
+# 分组：客户端标识
+USER-AGENT,HBOMAX*
+
+# 分组：HBO 与 HBO Max
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
+
+# 分组：WarnerMedia
+DOMAIN,wmff.warnermediacdn.com
+
+# 分组：内容分发与关联服务
+DOMAIN-SUFFIX,h264.io
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,maxgo.com
+DOMAIN-SUFFIX,cinemax.com
+DOMAIN-SUFFIX,discomax.com
+
+# 分组：客户端进程
+PROCESS-NAME,com.hbo.hbonow

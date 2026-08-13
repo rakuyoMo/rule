@@ -1,0 +1,19 @@
+# 名称：中国大陆私有 Tracker
+# 用途：匹配主要面向中国大陆网络的私有 Tracker 服务。
+# 建议策略：DIRECT
+
+# 分组：中国大陆私有 Tracker
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,comicat.org
+DOMAIN-SUFFIX,hdchina.org
+DOMAIN-SUFFIX,hddolby.com
+DOMAIN-SUFFIX,hdhome.org
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,nanyangpt.com
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,pterclub.com
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,tjupt.org
+DOMAIN-SUFFIX,totheglory.im

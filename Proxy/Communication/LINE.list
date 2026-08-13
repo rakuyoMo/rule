@@ -1,0 +1,15 @@
+# 名称：LINE
+# 用途：匹配 LINE 官方服务、内容资源及网络地址。
+# 建议策略：通信服务专用代理策略组。
+
+# 分组：LINE 官方服务
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,naver.jp
+
+# 分组：LINE 网络地址
+IP-CIDR,103.2.30.0/23,no-resolve
+IP-CIDR,125.209.208.0/20,no-resolve
+IP-CIDR,147.92.128.0/17,no-resolve
+IP-CIDR,203.104.144.0/21,no-resolve

@@ -1,0 +1,22 @@
+# 名称：云存储与文件同步
+# 用途：匹配 Dropbox、Box、MEGA、pCloud 等云存储和同步服务。
+# 建议策略：云存储专用代理策略组。
+
+# 分组：云存储与文件同步
+DOMAIN-SUFFIX,box.com
+DOMAIN-SUFFIX,getsync.com
+DOMAIN-SUFFIX,mega.co.nz
+DOMAIN-SUFFIX,mega.io
+DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,pcloud.com
+DOMAIN-SUFFIX,resilio.com
+DOMAIN-SUFFIX,spideroak.com
+DOMAIN-SUFFIX,turbobit.net
+
+# 分组：Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+
+# 分组：TeraBox
+DOMAIN-SUFFIX,terabox.com

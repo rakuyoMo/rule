@@ -1,0 +1,16 @@
+# 名称：长桥证券
+# 用途：匹配 Longbridge、LongPort 及长桥相关交易基础设施。
+# 建议策略：股票专用策略组。
+
+# 分组：Longbridge 与 LongPort
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longportapp.com
+
+# 分组：长桥相关基础设施
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,wbrks.com

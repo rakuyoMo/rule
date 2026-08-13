@@ -1,0 +1,15 @@
+# 名称：云主机与应用托管
+# 用途：匹配云主机、VPS、应用托管及 DigitalOcean CDN 服务。
+# 建议策略：通用代理策略组。
+
+# 分组：云主机与应用托管
+DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,cloudcone.com
+DOMAIN-SUFFIX,conoha.jp
+DOMAIN-SUFFIX,heroku.com
+
+# 分组：Gandi 域名与云服务
+DOMAIN-SUFFIX,gandi.net
+
+# 分组：DigitalOcean CDN
+DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net

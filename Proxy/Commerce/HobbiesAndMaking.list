@@ -1,0 +1,9 @@
+# 名称：键盘与创客平台
+# 用途：匹配机械键盘与 3D 打印创客社区。
+# 建议策略：通用代理策略组。
+
+# 分组：机械键盘
+DOMAIN-SUFFIX,markerchun.com
+
+# 分组：拓竹 MakerWorld 国际站
+DOMAIN-SUFFIX,makerworld.com

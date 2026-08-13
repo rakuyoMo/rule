@@ -1,0 +1,15 @@
+# 名称：视频与直播平台
+# 用途：匹配通用在线视频、直播及视频发布平台。
+# 建议策略：媒体服务专用代理策略组。
+
+# 分组：在线视频与直播平台
+DOMAIN-SUFFIX,dailymotion.com
+DOMAIN-SUFFIX,dlive.tv
+DOMAIN-SUFFIX,livestream.com
+DOMAIN-SUFFIX,mubi.com
+DOMAIN-SUFFIX,now.com
+DOMAIN-SUFFIX,parsevideo.com
+DOMAIN-SUFFIX,streamable.com
+DOMAIN-SUFFIX,ustream.tv
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,you-get.org

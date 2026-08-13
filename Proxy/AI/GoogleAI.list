@@ -1,0 +1,12 @@
+# 名称：Google AI
+# 用途：匹配 Gemini、Google AI 开发者服务及 Antigravity。
+# 建议策略：自定义 AI 专用策略组。
+
+# 分组：Gemini 网页与 API
+DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,gemini.googleapis.com
+
+# 分组：Google AI 开发者服务
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,antigravity.google

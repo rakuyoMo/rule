@@ -1,0 +1,17 @@
+# 名称：亚太地区新闻
+# 用途：匹配中国台湾、中国香港、新加坡、澳大利亚等亚太媒体。
+# 建议策略：新闻服务专用代理策略组。
+
+# 分组：亚太地区媒体
+DOMAIN-SUFFIX,cna.com.tw
+DOMAIN-SUFFIX,hket.com
+DOMAIN-SUFFIX,i-cable.com
+DOMAIN-SUFFIX,rthk.hk
+DOMAIN-SUFFIX,scmp.com
+DOMAIN-SUFFIX,straitstimes.com
+DOMAIN-SUFFIX,swissinfo.ch
+DOMAIN-SUFFIX,theinitium.com
+DOMAIN-SUFFIX,zaobao.com
+
+# 分组：联合早报
+DOMAIN-SUFFIX,zaobao.com.sg

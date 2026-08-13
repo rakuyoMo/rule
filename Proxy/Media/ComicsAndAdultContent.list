@@ -1,0 +1,14 @@
+# 名称：漫画与成人内容
+# 用途：匹配在线漫画、成人影像与相关内容站点。
+# 建议策略：通用代理策略组。
+
+# 分组：在线漫画
+DOMAIN-SUFFIX,godamh.com
+DOMAIN-SUFFIX,wnacg.com
+DOMAIN-SUFFIX,wnacg.org
+
+# 分组：成人内容
+DOMAIN-SUFFIX,91cg8.com
+DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,missav.live
+DOMAIN-SUFFIX,pornhub.com

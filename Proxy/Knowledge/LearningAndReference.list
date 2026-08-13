@@ -1,0 +1,13 @@
+# 名称：教育与知识参考
+# 用途：匹配在线课程、知识参考、维修教程及演示文档服务。
+# 建议策略：通用代理策略组。
+
+# 分组：教育、学习与知识参考
+DOMAIN-SUFFIX,coursehero.com
+DOMAIN-SUFFIX,edx-cdn.org
+DOMAIN-SUFFIX,encyclopedia.com
+DOMAIN-SUFFIX,speakerdeck.com
+DOMAIN-SUFFIX,urbandictionary.com
+
+# 分组：维修知识库
+DOMAIN-SUFFIX,ifixit.com

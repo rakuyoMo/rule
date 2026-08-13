@@ -1,0 +1,10 @@
+# 名称：地图与位置服务
+# 用途：匹配地图、街景及位置查询服务。
+# 建议策略：通用代理策略组。
+
+# 分组：地图、街景与位置服务
+DOMAIN-SUFFIX,earthcam.com
+DOMAIN-SUFFIX,wikimapia.org
+
+# 分组：HERE 地图
+DOMAIN,wego.here.com

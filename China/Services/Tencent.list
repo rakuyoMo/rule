@@ -1,0 +1,12 @@
+# 名称：腾讯
+# 用途：匹配腾讯与微信的媒体资源域名及腾讯大陆网络段。
+# 建议策略：DIRECT。
+
+# 分组：腾讯与微信媒体资源
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+
+# 分组：腾讯大陆网络
+IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,203.205.238.0/23,no-resolve
+IP-CIDR,203.205.254.0/23,no-resolve

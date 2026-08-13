@@ -1,0 +1,21 @@
+# 名称：X 与 Twitter
+# 用途：匹配 X、Twitter 及其历史关联服务与静态资源。
+# 建议策略：社交服务专用代理策略组。
+
+# 分组：X 与 Twitter 官方服务
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+
+# 分组：无需登录的第三方前端
+DOMAIN-SUFFIX,lightbrd.com
+DOMAIN-SUFFIX,nitter.net
+DOMAIN-SUFFIX,xcancel.com

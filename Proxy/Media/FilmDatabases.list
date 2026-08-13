@@ -1,0 +1,14 @@
+# 名称：影视资料库
+# 用途：匹配 IMDb、票房信息及影视元数据服务。
+# 建议策略：媒体服务专用代理策略组。
+
+# 分组：影视资料与元数据
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,thetvdb.com
+
+# 分组：IMDb 与票房资料
+DOMAIN-SUFFIX,boxofficemojo.com
+DOMAIN-SUFFIX,imdb
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imdb.to
+DOMAIN-SUFFIX,media-imdb.com

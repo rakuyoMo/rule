@@ -1,0 +1,10 @@
+# 名称：Reddit
+# 用途：匹配 Reddit 网站、媒体及静态资源。
+# 建议策略：社交服务专用代理策略组。
+
+# 分组：Reddit 官方服务
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redditlist.com

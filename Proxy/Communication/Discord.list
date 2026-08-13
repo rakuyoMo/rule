@@ -1,0 +1,11 @@
+# 名称：Discord
+# 用途：匹配 Discord 网站、客户端接口与内容资源。
+# 建议策略：通信服务专用代理策略组。
+
+# 分组：Discord 官方服务
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net

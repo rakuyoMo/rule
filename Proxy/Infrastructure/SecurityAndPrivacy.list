@@ -1,0 +1,30 @@
+# 名称：安全、证书与网络隐私
+# 用途：聚合证书校验、安全软件、网络设备及隐私保护工具。
+# 建议策略：通用代理策略组。
+
+# 分组：Let's Encrypt 证书状态服务
+DOMAIN,ocsp.int-x3.letsencrypt.org
+
+# 分组：安全软件与网络设备
+DOMAIN-SUFFIX,avg.com
+DOMAIN-SUFFIX,bullguard.com
+DOMAIN-SUFFIX,zyxel.com
+
+# 分组：隐私保护与开放网络工具
+DOMAIN-SUFFIX,disconnect.me
+DOMAIN-SUFFIX,gfw.report
+DOMAIN-SUFFIX,openvpn.net
+DOMAIN-SUFFIX,prism-break.org
+DOMAIN-SUFFIX,privoxy.org
+DOMAIN-SUFFIX,proxifier.com
+DOMAIN-SUFFIX,torproject.org
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,wireguard.com
+DOMAIN-SUFFIX,zeronet.io
+
+# 分组：VPN、代理与节点服务商
+DOMAIN-SUFFIX,51cg1.com
+DOMAIN-SUFFIX,ark.to
+DOMAIN-SUFFIX,linkcube.org
+DOMAIN-SUFFIX,shadowsocks.au
+DOMAIN-SUFFIX,uuuvps.hk

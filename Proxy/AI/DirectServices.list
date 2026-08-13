@@ -1,0 +1,8 @@
+# 名称：直连 AI 公益服务
+# 用途：匹配需要绕过 AI 代理策略、直接连接的公益服务入口。
+# 建议策略：DIRECT。
+
+# 分组：公益服务入口
+DOMAIN-SUFFIX,184772.xyz
+DOMAIN-SUFFIX,betterclau.de
+DOMAIN-SUFFIX,fcapp.run

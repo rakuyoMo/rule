@@ -1,0 +1,17 @@
+# 名称：电子书与数字图书馆
+# 用途：匹配电子书、文档阅读、数字档案及在线图书馆。
+# 建议策略：阅读服务专用代理策略组。
+
+# 分组：电子书、文档与数字图书馆
+DOMAIN-SUFFIX,archive.fo
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,archive.ph
+DOMAIN-SUFFIX,archiveofourown.org
+DOMAIN-SUFFIX,issuu.com
+DOMAIN-SUFFIX,kobo.com
+DOMAIN-SUFFIX,oxfordscholarship.com
+DOMAIN-SUFFIX,scribd.com
+DOMAIN-SUFFIX,slideshare.net
+DOMAIN-SUFFIX,wattpad.com
+DOMAIN-SUFFIX,worldcat.org
+DOMAIN-SUFFIX,z-lib.org

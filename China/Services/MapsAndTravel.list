@@ -1,0 +1,10 @@
+# 名称：中国大陆地图与出行社区
+# 用途：匹配规则数量较少的中国大陆地图、导航与出行社区服务。
+# 建议策略：DIRECT
+
+# 分组：高德地图
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+
+# 分组：飞客旅行社区
+DOMAIN-SUFFIX,flyert.com

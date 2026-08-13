@@ -1,0 +1,29 @@
+# 名称：境外私有 Tracker
+# 用途：匹配主要位于中国大陆以外的私有 Tracker 服务。
+# 建议策略：通用代理策略组；需要保种时应保持出口稳定。
+
+# 分组：影视与综合 Tracker
+DOMAIN-SUFFIX,animebytes.tv
+DOMAIN-SUFFIX,awesome-hd.me
+DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN-SUFFIX,empornium.me
+DOMAIN-SUFFIX,hdbits.org
+DOMAIN-SUFFIX,morethan.tv
+DOMAIN-SUFFIX,myanonamouse.net
+DOMAIN-SUFFIX,passthepopcorn.me
+DOMAIN-SUFFIX,privatehd.to
+
+# 分组：音乐与动漫 Tracker
+DOMAIN-SUFFIX,acg.rip
+DOMAIN-SUFFIX,jpopsuki.eu
+DOMAIN-SUFFIX,redacted.ch
+
+# 分组：游戏 Tracker
+DOMAIN-SUFFIX,gazellegames.net
+
+# 分组：其他地区 Tracker
+DOMAIN-SUFFIX,icetorrent.org
+DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,ncore.cc

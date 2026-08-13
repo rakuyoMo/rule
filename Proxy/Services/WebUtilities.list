@@ -1,0 +1,27 @@
+# 名称：网页工具
+# 用途：匹配短链接、文本分享、翻译及网页辅助工具。
+# 建议策略：通用代理策略组。
+
+# 分组：短链接、文本分享与网页工具
+DOMAIN-SUFFIX,bit.ly
+DOMAIN-SUFFIX,flitto.com
+DOMAIN-SUFFIX,is.gd
+DOMAIN-SUFFIX,justpaste.it
+DOMAIN-SUFFIX,paste.ee
+DOMAIN-SUFFIX,pastie.org
+DOMAIN-SUFFIX,tiny.cc
+DOMAIN-SUFFIX,x.co
+DOMAIN,lab.skk.moe
+
+# 分组：设备传输与应用辅助服务
+DOMAIN-SUFFIX,snapdrop.net
+DOMAIN,ip.istatmenus.app
+DOMAIN,sms.imagetasks.com
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN,speedtest.macpaw.com
+
+# 分组：出口 IP 与节点质量检测
+DOMAIN-SUFFIX,ippure.com
+
+# 暂不启用：保留 ping0.cc 以便后续手动开启。
+# DOMAIN-SUFFIX,ping0.cc

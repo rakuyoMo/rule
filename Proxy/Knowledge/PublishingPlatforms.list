@@ -1,0 +1,13 @@
+# 名称：内容发布平台
+# 用途：匹配博客、长文、作者头像及内容发布服务。
+# 建议策略：通用代理策略组。
+
+# 分组：独立内容发布平台
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,substack.com
+
+# 分组：WordPress、Tumblr 与头像服务
+DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,videopress.com
+DOMAIN-SUFFIX,wordpress.com

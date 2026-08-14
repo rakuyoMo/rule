@@ -1,0 +1,9 @@
+# 名称：中国大陆键盘与创客社区
+# 用途：匹配中国大陆的机械键盘与创客社区。
+# 建议策略：DIRECT
+
+# 分组：机械键盘社区
+DOMAIN-SUFFIX,zfrontier.com
+
+# 分组：拓竹 MakerWorld 大陆站
+DOMAIN-SUFFIX,makerworld.com.cn

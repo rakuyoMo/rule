@@ -1,0 +1,9 @@
+# 名称：中国大陆云服务与 AI 平台
+# 用途：匹配智谱 AI 与七牛云的中国大陆服务域名。
+# 建议策略：DIRECT。
+
+# 分组：智谱 AI
+DOMAIN-SUFFIX,bigmodel.cn
+
+# 分组：七牛云
+DOMAIN-SUFFIX,qiniu.com

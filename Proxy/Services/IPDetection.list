@@ -1,0 +1,9 @@
+# 名称：出口 IP 检测
+# 用途：匹配被应用风控依赖的第三方出口 IP 检测服务；用户主动使用的检测工具归 WebUtilities.list，不在此文件维护。
+# 建议策略：独立 select 策略组，并与当前需保持出口一致的业务策略同区。
+
+# 分组：共享 IP 检测服务
+# 目前已知 Bybit App 依赖以下域名核对出口地区，与业务流量不同出口时会触发 IP 异常风控。
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,ipwho.is

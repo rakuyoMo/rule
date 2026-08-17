@@ -1,5 +1,5 @@
 # 名称：Bybit
-# 用途：匹配 Bybit 交易所、API、应用与备用服务域名。
+# 用途：匹配 Bybit 交易所主站、全球区域站点、API、应用、备用域名。
 # 建议策略：Bybit 专用策略组。
 
 # 分组：Bybit 主站、API 与应用域名
@@ -11,6 +11,9 @@ DOMAIN-SUFFIX,bybit-global.com
 DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.global
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybits.org
 DOMAIN-SUFFIX,bycbe.com
 DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,byd3c3.com
@@ -18,10 +21,30 @@ DOMAIN-SUFFIX,bybdc6.com
 DOMAIN-SUFFIX,bymj.io
 DOMAIN-SUFFIX,bytick.com
 
+# 分组：Bybit 区域站点域名
+# 来源为官方 API 文档列出的区域部署：土耳其（含旧域 bybit-tr.com）、阿联酋、欧盟、印尼、哈萨克斯坦、荷兰、格鲁吉亚与香港。
+DOMAIN-SUFFIX,bybit-tr.com
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybit.nl
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,byhkbit.com
+
 # 分组：Bybit 精确支持与托管域名
+# 日本站由合作品牌 manepa.jp 承载，仅收官方文档列出的 API 主机；onelink.me 为 AppsFlyer 共享深链域，仅收 Bybit 专属子域。
+DOMAIN,api-testnet.manepa.jp
+DOMAIN,api.manepa.jp
 DOMAIN,bybit-exchange.github.io
 DOMAIN,bybit.ada.support
+DOMAIN,bybit.onelink.me
 
 # 分组：Bybit 备用域名
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+
+# 分组：Bybit 兜底关键字
+# 兜住动态生成的 AWS 存储桶域名与未来含 bybit 的新域；上方精确规则先行命中，本条仅作最后防线。
+DOMAIN-KEYWORD,bybit

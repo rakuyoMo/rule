@@ -44,7 +44,3 @@ DOMAIN,bybit.onelink.me
 # 分组：Bybit 备用域名
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
-
-# 分组：Bybit 兜底关键字
-# 兜住动态生成的 AWS 存储桶域名与未来含 bybit 的新域；上方精确规则先行命中，本条仅作最后防线。
-DOMAIN-KEYWORD,bybit

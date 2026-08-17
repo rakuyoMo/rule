@@ -1,0 +1,31 @@
+# 名称：微博
+# 用途：匹配新浪微博主站、接口、图床、视频 CDN 及官方短链；仅收微博确有依赖的新浪域名，新浪门户、新浪云与新浪邮箱等业务不在此文件维护。
+# 建议策略：DIRECT；如需跨区访问，可为本文件单独指定地区策略。
+
+# 分组：微博主站与接口
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+
+# 分组：微博官方短链
+# t.cn 为微博短链域名，未携带路径时 301 跳转至 weibo.com。
+DOMAIN-SUFFIX,t.cn
+
+# 分组：微博图床与视频 CDN
+# sinaimg 与 wbimg 两套图床都由微博自建服务承载（响应头 Server: wbimg）；weibocdn.com 承载视频，两者最终都调度到新浪自有的 sinaedge.com。
+DOMAIN-SUFFIX,sinaedge.com
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sinaimg.com
+DOMAIN-SUFFIX,wbimg.cn
+DOMAIN-SUFFIX,wbimg.com
+DOMAIN-SUFFIX,wbimg.com.cn
+DOMAIN-SUFFIX,weibocdn.com
+
+# 分组：微博登录鉴权
+# 微博网页端登录会直接请求 login.sina.com.cn，与 passport.weibo.com 共用同一新浪 ALB；为避免扩大到整个新浪门户，只收该主机。
+DOMAIN,login.sina.com.cn
+
+# 分组：微博当前无服务的自有域名
+# 三者权威 DNS 均为 ns*.sina.com.cn，与 weibo.com 同一套，确认属新浪；目前没有 A 记录，先收录以免日后启用时漏匹配。
+DOMAIN-SUFFIX,weibo.com.cn
+DOMAIN-SUFFIX,weibo.tv
+DOMAIN-SUFFIX,weibopay.com

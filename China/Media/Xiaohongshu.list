@@ -1,0 +1,19 @@
+# 名称：小红书
+# 用途：匹配小红书主站、接口、图文与视频 CDN 及分享短链，不含其依赖的 Akamai、阿里云与腾讯 COS 等共享 CDN。
+# 建议策略：DIRECT；如需海外版内容，可为本文件单独指定地区策略。
+
+# 分组：小红书主站与接口
+DOMAIN-SUFFIX,xiaohongshu.com
+
+# 分组：小红书海外版 RedNote
+# rednote.com 与主站共用同一腾讯 EdgeOne 边缘，响应头带 x-cdn-xhssupplier，确认为官方域名。
+DOMAIN-SUFFIX,rednote.com
+
+# 分组：小红书图文与视频 CDN
+# 头像、图文、视频与前端静态资源都在这两个后缀下，实际由 Akamai 与阿里云承载，因此只收官方后缀。
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+
+# 分组：小红书分享短链
+DOMAIN-SUFFIX,xhs.cn
+DOMAIN-SUFFIX,xhslink.com

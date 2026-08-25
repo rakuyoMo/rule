@@ -28,3 +28,6 @@ DOMAIN-SUFFIX,instagram.com
 # 分组：WhatsApp
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
+
+# 分组：Threads
+DOMAIN-SUFFIX,threads.com

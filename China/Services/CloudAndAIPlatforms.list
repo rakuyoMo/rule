@@ -10,3 +10,6 @@ DOMAIN-SUFFIX,qiniu.com
 
 # 分组：公益站
 DOMAIN-SUFFIX,runanytime.hxi.me
+
+# 分组：npm 大陆镜像
+DOMAIN-SUFFIX,npmmirror.com

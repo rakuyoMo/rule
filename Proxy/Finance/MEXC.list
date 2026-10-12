@@ -1,0 +1,53 @@
+# 名称：MEXC
+# 用途：匹配 MEXC 交易所主站、区域站点、API、WebSocket、P2P、应用与备用域名。
+# 建议策略：MEXC 专用策略组，并保持出口地区稳定。
+
+# 分组：MEXC 主站、API 与官方文档
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.co
+DOMAIN-SUFFIX,mexceu.com
+DOMAIN,mexcdevelop.github.io
+
+# 分组：MEXC 区域站点与官方备用域名
+DOMAIN-SUFFIX,mexc.ae
+DOMAIN-SUFFIX,mexc.cc
+DOMAIN-SUFFIX,mexc.cl
+DOMAIN-SUFFIX,mexc.ee
+DOMAIN-SUFFIX,mexc.fm
+DOMAIN-SUFFIX,mexc.ge
+DOMAIN-SUFFIX,mexc.in
+DOMAIN-SUFFIX,mexc.io
+DOMAIN-SUFFIX,mexc.kr
+DOMAIN-SUFFIX,mexc.us
+DOMAIN-SUFFIX,mexccex.com
+DOMAIN-SUFFIX,mexcsite.com
+DOMAIN-SUFFIX,mx-exchange.co
+
+# 分组：MEXC 登录与历史备用域名
+# 这些域名出现在 MEXC 生产站点的第三方登录白名单中，用于区域入口或旧版客户端兼容。
+DOMAIN-SUFFIX,365huo.xyz
+DOMAIN-SUFFIX,alookzone.com
+DOMAIN-SUFFIX,atomupre.com
+DOMAIN-SUFFIX,coldbookfly.ru
+DOMAIN-SUFFIX,cryptolinkapp.com
+DOMAIN-SUFFIX,ddjhe.com
+DOMAIN-SUFFIX,flytogarden.com
+DOMAIN-SUFFIX,getappnet.com
+DOMAIN-SUFFIX,getgogoto.com
+DOMAIN-SUFFIX,greentreeone.com
+DOMAIN-SUFFIX,hotbookzone.com
+DOMAIN-SUFFIX,hottreeswim.ru
+DOMAIN-SUFFIX,linkappmarketing.com
+DOMAIN-SUFFIX,mcaketech.com
+DOMAIN-SUFFIX,payapptoday.com
+DOMAIN-SUFFIX,weappnet.com
+
+# 分组：MEXC 应用资源与遥测域名
+# 官网生产环境使用以下精确主机承载静态资源、错误上报和实验配置；精确匹配可避免扩大共享域名的范围。
+DOMAIN,ab.dgshen.com
+DOMAIN,public.mocortech.com
+DOMAIN,sentry-new.gotoda.co
+DOMAIN,static.mocortech.com
+DOMAIN,trochilus-web.gotoda.co
+DOMAIN,www.dgshen.com
+DOMAIN-SUFFIX,mexcsensors.com

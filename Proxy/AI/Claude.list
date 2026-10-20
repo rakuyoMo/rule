@@ -1,5 +1,5 @@
 # 名称：Claude 与 Anthropic
-# 用途：匹配 Claude 应用、Anthropic API、静态内容及官方网络。
+# 用途：匹配 Claude 桌面端、Claude Code CLI、Anthropic API、静态内容及官方网络。
 # 建议策略：自定义 AI 专用策略组。
 
 # 分组：Anthropic 与 Claude 主域名
@@ -21,3 +21,22 @@ DOMAIN,platform.claude.com
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
+
+# 分组：macOS 桌面客户端进程
+# Electron 辅助进程也可能发起网络请求；含空格或括号的进程名无需加引号。
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper
+PROCESS-NAME,Claude Helper (GPU)
+PROCESS-NAME,Claude Helper (Plugin)
+PROCESS-NAME,Claude Helper (Renderer)
+
+# 分组：Claude Code CLI 进程
+# 覆盖以 claude 命名的原生程序，以及新版 npm 在 macOS 上也使用的 claude.exe。
+# 旧版 Node.js 安装依靠域名规则匹配，避免把其他 node 程序一并纳入。
+PROCESS-NAME,claude
+PROCESS-NAME,claude.exe
+
+# 分组：Claude Code 原生安装路径（Surge Mac）
+# 实际文件名可能是版本号，需按默认安装路径匹配；自定义安装路径应另行补充。
+# Surge 支持在 PROCESS-NAME 中使用完整路径通配符，其他客户端须确认支持或转换语法。
+PROCESS-NAME,/Users/*/.local/share/claude/versions/*

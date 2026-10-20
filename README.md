@@ -76,6 +76,8 @@ FINAL,Proxy
 
 基础域名与 IP 规则通常可直接用于较新的 Surge 和 Shadowrocket。`USER-AGENT`、`PROCESS-NAME`、`URL-REGEX`、`IP-ASN`、`OR` 等高级类型的支持情况可能随客户端及版本变化；若导入时报错，请先确认当前客户端的规则语法支持范围。
 
+`PROCESS-NAME` 需要客户端能够识别本机来源进程。Surge Mac 支持在该类型中使用完整路径通配符，Surge iOS 会忽略进程规则；其他客户端需确认对应语法的支持情况。
+
 IP、ASN 与 GEOIP 规则通常带有 `no-resolve`，用于避免匹配过程触发额外 DNS 查询。不要在客户端不支持该参数时直接照搬。
 
 ## 更新与贡献

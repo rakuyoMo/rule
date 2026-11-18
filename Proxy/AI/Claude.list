@@ -22,6 +22,9 @@ IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
 
+# 分组：其他 claude 会使用的域名
+DOMAIN,datadoghq.com
+
 # 分组：macOS 桌面客户端进程
 # Electron 辅助进程也可能发起网络请求；含空格或括号的进程名无需加引号。
 PROCESS-NAME,Claude

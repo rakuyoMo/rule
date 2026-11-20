@@ -1,0 +1,9 @@
+# 名称：科技企业中国站
+# 用途：匹配 Cloudflare 与高通中国站域名，独立于 AI 业务规则维护。
+# 建议策略：独立策略组，选用与 AI 服务相同的代理节点。
+
+# 分组：Cloudflare 中国
+DOMAIN-SUFFIX,cloudflare-cn.com
+
+# 分组：高通中国
+DOMAIN-SUFFIX,qualcomm.cn

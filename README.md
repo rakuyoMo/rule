@@ -65,6 +65,10 @@ FINAL,Proxy
 
 同一域名可能同时属于公司、基础设施或业务规则集。最终采用哪个策略取决于引用顺序，因此更新配置后应检查客户端的规则命中记录。
 
+Cloudflare 中国与高通中国单独维护在 [`Proxy/Services/TechnologyCompanies.list`](Proxy/Services/TechnologyCompanies.list)，建议使用独立策略组，选用与 AI 服务相同的代理节点。
+
+该规则集应放在 `China/Network/ChinaNetwork.list` 之前，避免高通中国的 `.cn` 域名先命中直连兜底规则。
+
 ## 规则格式与兼容性
 
 仓库目前使用 Surge 风格的纯文本规则，包含以下类型：

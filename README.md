@@ -69,6 +69,14 @@ Cloudflare 中国与高通中国单独维护在 [`Proxy/Services/TechnologyCompa
 
 该规则集应放在 `China/Network/ChinaNetwork.list` 之前，避免高通中国的 `.cn` 域名先命中直连兜底规则。
 
+Net.Coffee 页面使用的 IP138、IP.cn 与 IPIP 查询接口单独维护在 [`Proxy/Services/IPv4Lookup.list`](Proxy/Services/IPv4Lookup.list)，可绑定到待检测业务的策略组，例如 `🧠 AI`：
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/rakuyoMo/rule/main/Proxy/Services/IPv4Lookup.list,🧠 AI
+```
+
+该规则只精确匹配 `2026.ip138.com`、`my.ip.cn` 与 `myip.ipip.net`，应放在 `China/Network/ChinaNetwork.list` 之前，避免 `my.ip.cn` 先命中 `.cn` 直连兜底规则。引用前需在客户端中定义同名策略组。
+
 ## 规则格式与兼容性
 
 仓库目前使用 Surge 风格的纯文本规则，包含以下类型：

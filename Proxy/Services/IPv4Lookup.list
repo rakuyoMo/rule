@@ -1,5 +1,5 @@
 # 名称：公网 IPv4 查询
-# 用途：匹配 IP138、IP.cn 与 IPIP 的 IPv4 查询接口，供检测页面核对出口。
+# 用途：匹配检测页面与脚本使用的公网 IPv4 查询接口，供核对业务出口。
 # 建议策略：与待检测业务使用相同的策略组，例如 🧠 AI，并优先于中国大陆兜底规则。
 
 # 分组：Net.Coffee 页面 IPv4 查询接口
@@ -7,3 +7,11 @@
 DOMAIN,2026.ip138.com
 DOMAIN,my.ip.cn
 DOMAIN,myip.ipip.net
+
+# 分组：通用 IPv4 查询接口
+# IP.sb 同时属于 IPDetection.list；此处精确收录查询主机，按引用顺序选择策略。
+DOMAIN,4.ident.me
+DOMAIN,4.tnedi.me
+DOMAIN,api-ipv4.ip.sb
+DOMAIN,api.ipify.org
+DOMAIN,ipv4.icanhazip.com
